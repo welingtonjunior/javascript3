@@ -1,0 +1,65 @@
+#formulario-01, #formulario-02 {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #e7efff;
+
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    background: #ddd;
+    padding: 20px;
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+
+
+}
+
+h2 {
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    font-size: 30px;
+}
+
+input, button {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+input {
+    width: 80%;
+    padding: 1rem 2rem;
+}
+
+button {
+    border: solid rgb(144, 144, 240);
+    border-radius: 2rem;
+    background-color:rgb(144, 144, 240);
+    width: 10rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color: blue;
+}
+
+.mensagem, 
+#resultado{
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.erro {
+    border-color: #f00;
+}
